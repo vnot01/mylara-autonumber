@@ -1,8 +1,8 @@
 <?php
 
-namespace Alfa6661\AutoNumber\Observers;
+namespace MyLara\AutoNumber\Observers;
 
-use Alfa6661\AutoNumber\AutoNumber;
+use MyLara\AutoNumber\AutoNumber;
 use Illuminate\Database\Eloquent\Model;
 
 class AutoNumberObserver

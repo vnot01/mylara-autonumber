@@ -1,8 +1,8 @@
 <?php
 
-namespace Alfa6661\AutoNumber;
+namespace MyLara\AutoNumber;
 
-use Alfa6661\AutoNumber\Observers\AutoNumberObserver;
+use MyLara\AutoNumber\Observers\AutoNumberObserver;
 
 trait AutoNumberTrait
 {
