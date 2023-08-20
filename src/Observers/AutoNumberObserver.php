@@ -2,8 +2,8 @@
 
 namespace MyLara\AutoNumber\Observers;
 
-use MyLara\AutoNumber\AutoNumber;
 use Illuminate\Database\Eloquent\Model;
+use MyLara\AutoNumber\AutoNumber;
 
 class AutoNumberObserver
 {
@@ -24,11 +24,12 @@ class AutoNumberObserver
 
     /**
      * @param \Illuminate\Database\Eloquent\Model $model
+     *
      * @return null
      */
     public function saving(Model $model)
     {
-        if (! config('autonumber.onUpdate', false) && $model->exists) {
+        if (!config('autonumber.onUpdate', false) && $model->exists) {
             return;
         }
 
@@ -39,6 +40,7 @@ class AutoNumberObserver
      * Generate auto number.
      *
      * @param Model $model
+     *
      * @return bool
      */
     protected function generateAutoNumber(Model $model)

@@ -2,11 +2,11 @@
 
 namespace MyLara\AutoNumber;
 
-use MyLara\AutoNumber\Models\AutoNumber as AutoNumberModel;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Config;
 use InvalidArgumentException;
+use MyLara\AutoNumber\Models\AutoNumber as AutoNumberModel;
 
 class AutoNumber
 {
@@ -14,6 +14,7 @@ class AutoNumber
      * Generate unique name for autonumber identity.
      *
      * @param array $options
+     *
      * @return string
      */
     private function generateUniqueName(array $options)
@@ -25,6 +26,7 @@ class AutoNumber
      * Evaluate autonumber configuration.
      *
      * @param array $overrides
+     *
      * @return array
      */
     public function evaluateConfiguration(array $overrides = [])
@@ -51,6 +53,7 @@ class AutoNumber
      * Return the next auto increment number.
      *
      * @param string $name
+     *
      * @return int
      */
     private function getNextNumber($name)
@@ -59,7 +62,7 @@ class AutoNumber
 
         if ($autoNumber === null) {
             $autoNumber = new AutoNumberModel([
-                'name' => $name,
+                'name'   => $name,
                 'number' => 1,
             ]);
         } else {
@@ -75,6 +78,7 @@ class AutoNumber
      * Generate auto number.
      *
      * @param Model $model
+     *
      * @return bool
      */
     public function generate(Model $model)

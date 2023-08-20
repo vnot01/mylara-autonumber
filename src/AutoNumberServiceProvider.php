@@ -2,8 +2,8 @@
 
 namespace MyLara\AutoNumber;
 
-use MyLara\AutoNumber\Observers\AutoNumberObserver;
 use Illuminate\Support\ServiceProvider;
+use MyLara\AutoNumber\Observers\AutoNumberObserver;
 
 class AutoNumberServiceProvider extends ServiceProvider
 {
