@@ -1,12 +1,12 @@
 {
-    "name": "alfa6661/laravel-autonumber",
+    "name": "vnot01/mylara-autonumber",
     "description": "Laravel package to create autonumber for Eloquent model",
     "keywords": [
         "laravel",
         "eloquent",
         "autonumber"
     ],
-    "homepage": "https://github.com/alfa6661/laravel-autonumber",
+    "homepage": "https://github.com/vnot01/mylara-autonumber",
     "license": "MIT",
     "authors": [
         {
