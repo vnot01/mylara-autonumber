@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](https://poser.pugx.org/vnot01/mylara-autonumber/v/stable)](https://packagist.org/packages/vnot01/mylara-autonumber)
 [![Total Downloads](https://poser.pugx.org/vnot01/mylara-autonumber/downloads)](https://packagist.org/packages/vnot01/mylara-autonumber)
-[![StyleCI](https://styleci.io/repos/99206904/shield)](https://styleci.io/repos/99206904)
+[![StyleCI](https://styleci.io/repos/99206904/shield)](https://styleci.io/repos/680790804)
 [![License](https://poser.pugx.org/vnot01/mylara-autonumber/license)](https://packagist.org/packages/vnot01/mylara-autonumber)
 
 
